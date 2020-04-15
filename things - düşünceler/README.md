@@ -1,1 +1,1 @@
-## Things - Düşünceler
+## Things - Düşünceler
