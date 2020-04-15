@@ -1,1 +1,1 @@
-## Quotes - Alıntılar
+## Quotes - Alıntılar
