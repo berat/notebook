@@ -2,31 +2,31 @@
 
 1- Delete port in ubuntu server 
 
-```bash
+``` bash
   sudo fuser -k 80/tcp
 ```
 
 2- Restart to nginx service
 
-```bash
+``` bash
   sudo service nginx restart
 ```
 
 3- Configre to nginx .conf file
 
-```bash
+``` bash
   nano /etc/nginx/sites-available/defaul
 ```
 
 4- start to next.js project with pm2 on ubuntu server
 
-```bash
+``` bash
   pm2 start npm --name "nextProject" --start --watch
 ```
 
 5- My config .conf file
 
-```bash
+``` bash
 server {
 	server_name davetiyem.co www.davetiyem.co;
 	location / {
