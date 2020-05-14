@@ -28,3 +28,15 @@ const getRandom = (keys = [], times = 0, colors = []) => {
 // colors will return random color up to length
 console.log(getRandom(Object.keys(colors), Object.keys(colors).length)
 ```
+
+2. Randomly rewrite the existing array
+
+``` javascript
+function shuffle(a) {
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+}
+```
