@@ -39,4 +39,11 @@ server {
 	}
 }
 ```
+6- Config username/password for github with ~/.netrc
 
+
+``` bash
+machine github.com
+login USERNAME
+password PASSWORD
+```
